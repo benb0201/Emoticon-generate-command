@@ -1,0 +1,16 @@
+@startuml
+class Emoticon {
+    + Emoticon()
+    + AddShape(shape:Shape) : void
+    + RemoveShape(type:Type) : void
+    + Contains(type:Type) : bool
+    + Move(shape:Shape, direction:int, value:int) : void
+    + Rotate(shape:Shape, direction:int, degrees:int) : void
+    + Display() : void
+    + drawSVG() : List<string>
+    + ToSVG() : void
+}
+class "List`1"<T> {
+}
+Emoticon --> "emoticon<Shape>" "List`1"
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+class Lefteye {
+    + radius : int
+    + Lefteye()
+    + Lefteye(style:string)
+    + <<override>> getString() : string
+}
+Shape <|-- Lefteye
+@enduml

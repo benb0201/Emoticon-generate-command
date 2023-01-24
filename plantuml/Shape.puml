@@ -1,0 +1,16 @@
+@startuml
+abstract class Shape {
+    + x : int
+    + y : int
+    + stroke : string
+    + strokeW : int
+    + fill : string
+    + data : string
+    + style : string
+    + x1 : int
+    + x2 : int
+    + y1 : int
+    + y2 : int
+    + <<virtual>> getString() : string
+}
+@enduml

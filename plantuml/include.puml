@@ -1,0 +1,19 @@
+@startuml
+!include .\\AddShapeCommand.puml
+!include .\\Base.puml
+!include .\\Emoticon.puml
+!include .\\Eyebrows.puml
+!include .\\ICommand.puml
+!include .\\Invoker.puml
+!include .\\Leftbrow.puml
+!include .\\Lefteye.puml
+!include .\\Mouth.puml
+!include .\\Program.puml
+!include .\\Rightbrow.puml
+!include .\\Righteye.puml
+!include .\\Shape.puml
+!include .\\ShapeFactory.puml
+!include .\\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.puml
+!include .\\obj\Debug\net6.0\coding-assignment.AssemblyInfo.puml
+!include .\\obj\Debug\net6.0\coding-assignment.GlobalUsings.g.puml
+@enduml

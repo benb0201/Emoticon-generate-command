@@ -1,0 +1,9 @@
+@startuml
+class Righteye {
+    + radius : int
+    + Righteye()
+    + Righteye(style:String)
+    + <<override>> getString() : string
+}
+Shape <|-- Righteye
+@enduml

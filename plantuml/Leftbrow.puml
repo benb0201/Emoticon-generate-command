@@ -1,0 +1,9 @@
+@startuml
+class Leftbrow {
+    + radius : int
+    + Leftbrow()
+    + Leftbrow(style:String)
+    + <<override>> getString() : string
+}
+Shape <|-- Leftbrow
+@enduml

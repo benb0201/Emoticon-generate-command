@@ -1,0 +1,9 @@
+@startuml
+class Rightbrow {
+    + radius : int
+    + Rightbrow()
+    + Rightbrow(style:String)
+    + <<override>> getString() : string
+}
+Shape <|-- Rightbrow
+@enduml

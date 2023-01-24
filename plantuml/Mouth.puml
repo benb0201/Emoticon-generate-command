@@ -1,0 +1,8 @@
+@startuml
+class Mouth {
+    + Mouth()
+    + Mouth(style:String)
+    + <<override>> getString() : string
+}
+Shape <|-- Mouth
+@enduml

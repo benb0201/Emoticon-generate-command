@@ -1,0 +1,8 @@
+@startuml
+class AddShapeCommand {
+    + AddShapeCommand(emoticon:Emoticon, shape:Shape)
+    + <<override>> Execute() : void
+    + <<override>> UnExecute() : void
+}
+ICommand <|-- AddShapeCommand
+@enduml

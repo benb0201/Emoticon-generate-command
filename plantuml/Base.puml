@@ -1,0 +1,9 @@
+@startuml
+class Base {
+    + radius : int
+    + Base()
+    + Base(x:int, y:int, radius:int, stroke:String, strokeW:int, fill:String)
+    + <<override>> getString() : string
+}
+Shape <|-- Base
+@enduml
